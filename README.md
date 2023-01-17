@@ -31,7 +31,7 @@ nmap -sV 192.168.0.119 (service version scan)
 It’s a drupal site. This is first time i seen a Site named Drupal
 
 
-## Search Exploit
+# Exploiting
 
 I have searched for exploit for drupal site in metasploit [search drupal] 
 
@@ -40,5 +40,6 @@ I have searched for exploit for drupal site in metasploit [search drupal]
 Found some exploits and after trying some of this exploit/unix/webapp/drupal_drupalgeddon2 worked and given a meterpeter shell
 
 
+![Screenshot from 2023-01-16 01-20-37](https://user-images.githubusercontent.com/108471951/212984577-492ed27c-4f35-4dfb-a98f-e6e3b2723fb3.png)
 
-
+[show options] [set rhosts] [exploit]
