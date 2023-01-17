@@ -37,9 +37,22 @@ I have searched for exploit for drupal site in metasploit [search drupal]
 
 ![Screenshot from 2023-01-16 01-19-36](https://user-images.githubusercontent.com/108471951/212982113-653ef59b-b982-4041-b120-1c32feb029e2.png)
 
-Found some exploits and after trying some of this exploit/unix/webapp/drupal_drupalgeddon2 worked and given a meterpeter shell
+Found some exploits. By using them tried to Exploit 
 
 
 ![Screenshot from 2023-01-16 01-20-37](https://user-images.githubusercontent.com/108471951/212984577-492ed27c-4f35-4dfb-a98f-e6e3b2723fb3.png)
 
-[show options] [set rhosts] [exploit]
+
+After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked and given a meterpeter shell
+
+[show options] 
+[set rhosts]
+[exploit]
+
+
+
+
+
+
+
+
