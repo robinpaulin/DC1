@@ -1,6 +1,3 @@
-# DC1
-DC1 vulnhub walkthrough
-
 Description  DC-1 is a purposely built vulnerable lab for the purpose of gaining experience in the world of penetration testing.
 
 It was designed to be a challenge for beginners, but just how easy it is will depend on your skills and knowledge, and your ability to learn.
