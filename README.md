@@ -50,6 +50,7 @@ After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked a
 [exploit]
 
 
+![Screenshot from 2023-01-18 00-26-17](https://user-images.githubusercontent.com/108471951/212987116-b5d5c9e3-e308-431c-92ce-ce00bcab8eee.png)
 
 
 
