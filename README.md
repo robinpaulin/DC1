@@ -27,3 +27,18 @@ Firstly we have to identify the machine IP address using tool like NetDiscover [
 ![Screenshot from 2023-01-17 23-48-32](https://user-images.githubusercontent.com/108471951/212979611-b732a639-bb5c-40b0-a1b5-463c7ed54654.png)
 
 nmap -sV 192.168.0.119 (service version scan)
+
+It’s a drupal site. This is first time i seen a Site named Drupal
+
+
+## Search Exploit
+
+I have searched for exploit for drupal site in metasploit [search drupal] 
+
+![Screenshot from 2023-01-16 01-19-36](https://user-images.githubusercontent.com/108471951/212982113-653ef59b-b982-4041-b120-1c32feb029e2.png)
+
+Found some exploits and after trying some of this exploit/unix/webapp/drupal_drupalgeddon2 worked and given a meterpeter shell
+
+
+
+
