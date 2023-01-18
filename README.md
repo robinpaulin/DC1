@@ -9,7 +9,7 @@ To successfully complete this challenge, you will require Linux skills, familiar
 
 There are multiple ways of gaining root, however, I have included some flags which contain clues for beginners.
 
-There are five flags in total, but the ultimate goal is to find and read the flag in root's home directory. You don't even need to be root to do this, however, you will require root privileges.
+### There are five flags in total, but the ultimate goal is to find and read the flag in root's home directory. You don't even need to be root to do this, however, you will require root privileges.
 
 Depending on your skill level, you may be able to skip finding most of these flags and go straight for root.
 
