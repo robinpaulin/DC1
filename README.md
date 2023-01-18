@@ -51,7 +51,7 @@ After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked a
 
 use1
 
-show option
+show options
 
 set rhosts [target IP]
 
