@@ -18,7 +18,7 @@ Depending on your skill level, you may be able to skip finding most of these fla
   
   ### Reconnaissance 
   
-Sudo NetDiscover
+Sudo netdiscover
   
 ![Screenshot from 2023-01-16 01-16-55](https://user-images.githubusercontent.com/108471951/212977979-8eb9986d-cfe5-43c1-94aa-c37492e289ed.png)
 
