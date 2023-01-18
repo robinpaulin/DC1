@@ -64,8 +64,24 @@ After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked a
 ![Screenshot from 2023-01-18 00-26-17](https://user-images.githubusercontent.com/108471951/212987116-b5d5c9e3-e308-431c-92ce-ce00bcab8eee.png)
 
 
+Then using the [shell] comannd I got a Shell
+
+![Screenshot from 2023-01-19 00-41-24](https://user-images.githubusercontent.com/108471951/213274935-894ceccf-4251-4e8e-a05d-38a363400f3b.png)
 
 
+# Privilege Escalation
 
+Then I tried to change directory to root but i dont have root privileges
+
+
+![Screenshot from 2023-01-19 00-43-04](https://user-images.githubusercontent.com/108471951/213276028-0d9b9a2d-ddc9-4ccd-bbde-43acd7b08ab1.png)
+
+
+find . -exec /bin/sh \; -quit
+
+so in GTFOBins i find a script for gaining root accses 
+https://gtfobins.github.io/gtfobins/find/#shell
+
+![Screenshot from 2023-01-19 00-45-51](https://user-images.githubusercontent.com/108471951/213276479-72a98852-d402-4de5-b50f-eb9c0d4c800d.png)
 
 
