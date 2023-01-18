@@ -45,8 +45,6 @@ Found some exploits. By using them tried to Exploit
 ![Screenshot from 2023-01-16 01-19-36](https://user-images.githubusercontent.com/108471951/212982113-653ef59b-b982-4041-b120-1c32feb029e2.png)
 
 
-After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked and given a meterpeter shell
-
 
 
 use1
