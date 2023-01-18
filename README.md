@@ -71,17 +71,20 @@ Then using the [shell] comannd I got a Shell
 
 # Privilege Escalation
 
-Then I tried to change directory to root but i dont have root privileges
+Then I tried to change directory to root but its not worked , I dont have root privileges.
 
 
 ![Screenshot from 2023-01-19 00-43-04](https://user-images.githubusercontent.com/108471951/213276028-0d9b9a2d-ddc9-4ccd-bbde-43acd7b08ab1.png)
 
 
-find . -exec /bin/sh \; -quit
 
 so in GTFOBins i find a script for gaining root accses 
 https://gtfobins.github.io/gtfobins/find/#shell
 
-![Screenshot from 2023-01-19 00-45-51](https://user-images.githubusercontent.com/108471951/213276479-72a98852-d402-4de5-b50f-eb9c0d4c800d.png)
+
+find . -exec /bin/sh \; -quit
+
+
+![Screenshot from 2023-01-19 01-03-23](https://user-images.githubusercontent.com/108471951/213277047-d1614401-d5ef-4ba0-ba13-d89743d653c9.png)
 
 
