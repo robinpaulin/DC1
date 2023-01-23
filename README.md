@@ -25,7 +25,7 @@ Sudo netdiscover
 Firstly we have to identify the machine IP address using tool like NetDiscover 
 ### Nmap
 
-nmap -sV 192.168.0.119 (service version scan)
+nmap -sV -sC 192.168.0.119 (service version scan)
 
 ![Screenshot from 2023-01-17 23-48-32](https://user-images.githubusercontent.com/108471951/212979611-b732a639-bb5c-40b0-a1b5-463c7ed54654.png)
 
